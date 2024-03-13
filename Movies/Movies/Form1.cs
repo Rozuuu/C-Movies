@@ -92,7 +92,7 @@ namespace Movies
 
         }
 
-        private void listView1_SelectedIndexChanged(object sender, EventArgs e)
+         private void listView1_SelectedIndexChanged(object sender, EventArgs e)
         {
             if (listView1.SelectedItems.Count > 0)
             {
@@ -107,8 +107,18 @@ namespace Movies
                 Origin.Text = selectedItem.SubItems[4].Text;
 
                 // Parse birthdate from the selected item
-                DateTime birthdate = DateTime.ParseExact(selectedItem.SubItems[5].Text, "yyyy-MM-dd", CultureInfo.InvariantCulture);
-                dateTimePicker1.Value = birthdate;
+                DateTime birthdate;
+                if (DateTime.TryParseExact(selectedItem.SubItems[5].Text, "yyyy-MM-dd", CultureInfo.InvariantCulture, DateTimeStyles.None, out birthdate))
+                {
+                    dateTimePicker1.Value = birthdate;
+                }
+                else
+                {
+                    // Handle invalid birthdate string
+                    // For example, you could set a default value or display an error message
+                    dateTimePicker1.Value = DateTime.Today; // Set a default value
+                    // MessageBox.Show("Invalid birthdate format!"); // Display an error message
+                }
 
                 // You can continue displaying other information in the same manner
             }
