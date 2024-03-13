@@ -1,0 +1,11 @@
+c:\users\ict-tsg\documents\visual studio 2013\Projects\Movies\Movies\bin\Debug\Movies.exe.config
+c:\users\ict-tsg\documents\visual studio 2013\Projects\Movies\Movies\bin\Debug\Database1.mdf
+c:\users\ict-tsg\documents\visual studio 2013\Projects\Movies\Movies\bin\Debug\Database1_log.ldf
+c:\users\ict-tsg\documents\visual studio 2013\Projects\Movies\Movies\bin\Debug\Movies.exe
+c:\users\ict-tsg\documents\visual studio 2013\Projects\Movies\Movies\bin\Debug\Movies.pdb
+c:\users\ict-tsg\documents\visual studio 2013\Projects\Movies\Movies\obj\Debug\Movies.csprojResolveAssemblyReference.cache
+c:\users\ict-tsg\documents\visual studio 2013\Projects\Movies\Movies\obj\Debug\Movies.Form1.resources
+c:\users\ict-tsg\documents\visual studio 2013\Projects\Movies\Movies\obj\Debug\Movies.Properties.Resources.resources
+c:\users\ict-tsg\documents\visual studio 2013\Projects\Movies\Movies\obj\Debug\Movies.csproj.GenerateResource.Cache
+c:\users\ict-tsg\documents\visual studio 2013\Projects\Movies\Movies\obj\Debug\Movies.exe
+c:\users\ict-tsg\documents\visual studio 2013\Projects\Movies\Movies\obj\Debug\Movies.pdb
